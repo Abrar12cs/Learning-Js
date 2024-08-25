@@ -31,8 +31,35 @@ console.log(typeof booleanIsLoggedIn)
 
 let someNumber = 33
 
+/*
 console.log(someNumber)
 console.log(typeof someNumber)
 let stringNumber = String(someNumber)// converting to String
 console.log(stringNumber)
 console.log(typeof stringNumber)
+ */
+
+//************Operations************
+
+// console.log(2+3)
+// console.log(2-3)
+// console.log(2*3)
+// console.log(2**3)
+// console.log(2/3)
+// console.log(2%3)
+
+let str1 = "Muhammad "
+let str2 = "Abrar"
+
+let str3 = str1 + str2
+//console.log(str3)
+
+console.log("1" + 2)
+console.log(1 + "2")
+console.log("1" + 2 + 3)
+console.log(1 + 2 + "3")
+console.log(1 + 2 + "3" + 4 +5)
+/* 
+if first value is string then it will treat all values as a string
+And If first value is a number it will apply calcilation upto first string on the right side and then next trat evey value as a string.
+*/
