@@ -1,0 +1,38 @@
+let score = "22"
+
+/*
+console.log(score)
+console.log(typeof score)
+console.log(typeof (score))
+
+let valueInNummber = Number(score)
+console.log(valueInNummber)
+console.log(typeof valueInNummber)
+*/
+
+//conversion in number
+// "22" => 22
+// "22abc" => NaN  mean Not a Number
+// "abc" => NaN
+// null => 0
+// undefined => NaN
+// true => 1 , false => 0
+
+let isLoggedIn = "abc"
+/*
+let booleanIsLoggedIn = Boolean(isLoggedIn)
+console.log(booleanIsLoggedIn)
+console.log(typeof booleanIsLoggedIn)
+*/
+// conversion to Boolean
+// 1 => true ; 0 => false
+// "" => false
+// "abc" => true
+
+let someNumber = 33
+
+console.log(someNumber)
+console.log(typeof someNumber)
+let stringNumber = String(someNumber)// converting to String
+console.log(stringNumber)
+console.log(typeof stringNumber)
