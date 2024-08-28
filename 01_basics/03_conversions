@@ -54,12 +54,40 @@ let str2 = "Abrar"
 let str3 = str1 + str2
 //console.log(str3)
 
-console.log("1" + 2)
-console.log(1 + "2")
-console.log("1" + 2 + 3)
-console.log(1 + 2 + "3")
-console.log(1 + 2 + "3" + 4 +5)
+// console.log("1" + 2)
+// console.log(1 + "2")
+// console.log("1" + 2 + 3)
+// console.log(1 + 2 + "3")
+// console.log(1 + 2 + "3" + 4 +5)
 /* 
 if first value is string then it will treat all values as a string
 And If first value is a number it will apply calcilation upto first string on the right side and then next trat evey value as a string.
 */
+
+console.log(true)
+console.log(false)
+
+/**
+ Postfix
+ the increment operator increments( orignal variable value) and returns the value(to other variable) before incrementing
+
+ prefix
+
+ */
+
+ let a = 3
+ let b = a++
+// a++
+// let b = a++
+
+ console.log(`a:${a}, b:${b}`);
+// a:4, b:3
+
+ let x = 3
+ let y = ++x
+
+ console.log(`x:${x}, y:${y}`)
+// x:4, y:4
+
+// link to study
+// https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
